@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        button{
+            width: 60px;
+        }
+    </style>
+
+
+        <table border="1px">
+            
+        <tr>
+            
+        
+                <td colspan="3"><span id="textvalue"></span></td>
+                <td><button id="clear" onclick="reset()">C</button></td>
+        </tr>
+             
+            <tr>  
+                <td><button id="seven1" onclick="seven()">7</button></td>
+                <td><button id="eight1" onclick="eight()">8</button></td>
+               <td><button id="nine1" onclick="nine()">9</button></td>
+               <td><button id="divi" onclick="division()">/</button></td>
+            </tr>        
+               
+           <tr>
+                <td><button id="four1" onclick="four()">4</button></td>
+                <td><button id="five1" onclick="five()">5</button></td>
+                <td><button id="six1" onclick="six()">6</button></td>
+                <td><button id="multi" onclick="multiplication()">X</button></td>
+            </tr>
+            <tr>
+                <td><button id="one1" onclick="one()">1</button></td>
+                <td><button id="two1" onclick="two()">2</button></td>
+                <td><button id="three1" onclick="three()">3</button></td>
+                <td><button id="sub" onclick="subtraction()">-</button></td>
+            </tr>
+
+            <tr>
+                <td><button id="zero1" onclick="zero()">0</button></td>
+                <td> <button id="dot1" onclick="dot()">.</button></td>
+                <td><button id="equal1" onclick="equal()">=</button></td>
+                <td><button id="addi" onclick="add()">+</button></td>
+            </tr>
+
+            </table>
+    <script src="calc.js"></script>
+</body>
+
+</html>

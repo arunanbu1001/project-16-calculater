@@ -1,0 +1,17 @@
+.calculator{
+    width: 350px;
+    height: 300px;
+    background-color: rgb(212, 201, 235);
+}
+.dis{
+    display: flex;
+}
+.but{
+    margin-top: 10px;
+    margin-left: 17px;
+}
+.but button{
+    width: 40px;
+}
+
+
